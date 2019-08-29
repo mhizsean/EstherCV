@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+h3 {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #8c12ff;
+}
+header {
+    height: 300px;
+    width: 100%;
+}
+
+header img {
+    margin-top: 25px;
+    margin-left: 5px
+}
+.column-1 {
+    float: left;
+    padding: 10px;
+    height: 300px;
+  }
+
+.img {
+    width: 20%;
+}
+
+.details {
+    width: 80%;
+    text-align: center
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+
+.details h2 {
+    text-transform: uppercase;
+    color:#8c12ff ;
+    font-size: 70px;
+    margin: 15px; 
+}
+
+.details address {
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.objectives {
+    text-align: center;
+}
+
+.objectives h3{
+    text-transform: uppercase;
+    color: #7345ff;
+    font-size: 37px;    
+}
+
+.objectives p {
+    font-size: 20px;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+
+.exp  p em{
+    font-size: 22px;
+}
+
+.exp p small {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.exp .role {
+    font-size: 18px;
+}
+
+
+
+.skills p {
+    font-size: 20px;
+}
+
+
+.column-3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    
+  }
+
+  .row:after {
+    display: table;
+    clear: both;
+}
+
+
+.edu p {
+    font-size: 20px;
+}
+
+.edu p small {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.edu  p sub  {
+    font-size: 15px;   
+}
+
+.lang p {
+    font-size: 20px;
+}
+.edu {
+    margin-bottom: 100px;
+}
